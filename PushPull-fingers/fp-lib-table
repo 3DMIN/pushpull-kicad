@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PushPull)(type KiCad)(uri /home/istanbul/Documents/Projekte/2015/PushPull/PushPull-footprints.pretty)(options "")(descr ""))
+)

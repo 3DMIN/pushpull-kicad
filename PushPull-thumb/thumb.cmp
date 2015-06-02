@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-05 BZR 5645)-product   date = 2015 May 07, Thursday 15:36:07
+Cmp-Mod V01 Created by Cvpcb (2015-05-13 BZR 5653)-product   date = Tue 26 May 2015 01:53:25 AM CEST
 
 BeginCmp
-TimeStamp = /554741E4;
+TimeStamp = /5563B566;
 Reference = P1;
-ValeurCmp = Connector;
-IdModule  = Connect:GS3;
+ValeurCmp = Mainboard;
+IdModule  = Pushpull:4_PIN_MM_conn;
 EndCmp
 
 BeginCmp
-TimeStamp = /554B65CC;
+TimeStamp = /5563B6AE;
 Reference = P2;
-ValeurCmp = CapSense;
-IdModule  = PushPull:pushPullThumbPad-Cu-final;
+ValeurCmp = Thumb;
+IdModule  = Pushpull:PushPull_ThumbLogo;
 EndCmp
 
 EndListe
