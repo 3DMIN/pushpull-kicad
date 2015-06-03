@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-10 BZR 5649)-product   date = 2015 May 31, Sunday 15:22:19
+Cmp-Mod V01 Created by Cvpcb (2015-05-13 BZR 5653)-product   date = Tue 02 Jun 2015 04:22:51 PM CEST
 
 BeginCmp
 TimeStamp = /556B28CB;
@@ -10,8 +10,8 @@ EndCmp
 BeginCmp
 TimeStamp = /556B28D7;
 Reference = C2;
-ValeurCmp = 470n;
-IdModule  = Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_ThroughHole:C_Rect_L7_W4.5_P5;
 EndCmp
 
 BeginCmp
@@ -24,7 +24,7 @@ EndCmp
 BeginCmp
 TimeStamp = /556B28E9;
 Reference = C4;
-ValeurCmp = 4µ7;
+ValeurCmp = 10µ;
 IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5;
 EndCmp
 
@@ -38,8 +38,8 @@ EndCmp
 BeginCmp
 TimeStamp = /556AEF66;
 Reference = C6;
-ValeurCmp = 470n;
-IdModule  = Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_ThroughHole:C_Rect_L7_W4.5_P5;
 EndCmp
 
 BeginCmp
@@ -52,14 +52,14 @@ EndCmp
 BeginCmp
 TimeStamp = /556AF32E;
 Reference = C8;
-ValeurCmp = 4µ7;
+ValeurCmp = 10µ;
 IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5;
 EndCmp
 
 BeginCmp
-TimeStamp = /556AFBFA;
+TimeStamp = /556DC2C0;
 Reference = C9;
-ValeurCmp = 4µ7;
+ValeurCmp = 1µ;
 IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5;
 EndCmp
 
@@ -78,37 +78,44 @@ IdModule  = Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5;
 EndCmp
 
 BeginCmp
-TimeStamp = /556AFD2A;
+TimeStamp = /556DC398;
 Reference = C12;
-ValeurCmp = 220µ;
+ValeurCmp = 4µ7;
 IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5;
-EndCmp
-
-BeginCmp
-TimeStamp = /556AFEAD;
-Reference = C13;
-ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /556AF5B2;
 Reference = P1;
-ValeurCmp = CONN_01X02;
+ValeurCmp = PWR;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /556B3690;
 Reference = P2;
-ValeurCmp = CONN_01X02;
+ValeurCmp = OUT;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
 TimeStamp = /556B63FE;
 Reference = P3;
-ValeurCmp = CONN_01X02;
+ValeurCmp = IN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /556DF9FE;
+Reference = P4;
+ValeurCmp = IN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /556DFE1D;
+Reference = P5;
+ValeurCmp = IN;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
@@ -211,6 +218,20 @@ IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /556D99E5;
+Reference = R15;
+ValeurCmp = 22k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /556DA700;
+Reference = R16;
+ValeurCmp = 100k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /556B28BF;
 Reference = RV1;
 ValeurCmp = 100k;
@@ -229,6 +250,13 @@ TimeStamp = /556AE64E;
 Reference = U1;
 ValeurCmp = TL072;
 IdModule  = Housings_DIP:DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /556DBFC2;
+Reference = U2;
+ValeurCmp = LP2950 3.3V;
+IdModule  = Discret:TO92;
 EndCmp
 
 EndListe
