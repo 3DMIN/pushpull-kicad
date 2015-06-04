@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-13 BZR 5653)-product   date = Tue 02 Jun 2015 04:22:51 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-13 BZR 5653)-product   date = Thu 04 Jun 2015 03:53:53 PM CEST
 
 BeginCmp
 TimeStamp = /556B28CB;
@@ -85,10 +85,10 @@ IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5;
 EndCmp
 
 BeginCmp
-TimeStamp = /556AF5B2;
+TimeStamp = /55705D11;
 Reference = P1;
 ValeurCmp = PWR;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -99,10 +99,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /556B63FE;
+TimeStamp = /557060A7;
 Reference = P3;
-ValeurCmp = IN;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+ValeurCmp = PWR;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
@@ -235,14 +235,14 @@ BeginCmp
 TimeStamp = /556B28BF;
 Reference = RV1;
 ValeurCmp = 100k;
-IdModule  = Potentiometers:Potentiometer_Trimmer-Piher-PT15-h2-5_vertical;
+IdModule  = PushPull-footprints:Trimmer_Dual;
 EndCmp
 
 BeginCmp
 TimeStamp = /556AE882;
 Reference = RV2;
 ValeurCmp = 100k;
-IdModule  = Potentiometers:Potentiometer_Trimmer-Piher-PT15-h2-5_vertical;
+IdModule  = PushPull-footprints:Trimmer_Dual;
 EndCmp
 
 BeginCmp
