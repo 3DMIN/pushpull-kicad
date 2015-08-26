@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by Cvpcb (2015-05-13 BZR 5653)-product   date = Tue 26 May 2015 01:53:25 AM CEST
+
+BeginCmp
+TimeStamp = /5563B566;
+Reference = P1;
+ValeurCmp = Mainboard;
+IdModule  = Pushpull:4_PIN_MM_conn;
+EndCmp
+
+BeginCmp
+TimeStamp = /5563B6AE;
+Reference = P2;
+ValeurCmp = Thumb;
+IdModule  = Pushpull:PushPull_ThumbLogo;
+EndCmp
+
+EndListe
