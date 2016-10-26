@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -479,7 +478,7 @@ L R R16
 U 1 1 556DA700
 P 1500 5100
 F 0 "R16" V 1580 5100 50  0000 C CNN
-F 1 "100k" V 1500 5100 50  0000 C CNN
+F 1 "22k" V 1500 5100 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1430 5100 30  0001 C CNN
 F 3 "" H 1500 5100 30  0000 C CNN
 	1    1500 5100
